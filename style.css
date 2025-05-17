@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: #8f5555;  
+    box-shadow: #8f5555 0px 0px 20px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quotes
+{
+    height: auto;
+    color: white;
+    width: auto;
+    padding: 20px;
+}
+#gen{
+    height: 50px;
+    width: auto;
+    background-color: #a47979;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
